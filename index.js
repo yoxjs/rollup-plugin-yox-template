@@ -1,14 +1,14 @@
-import fs from 'fs'
-import Yox from 'yox'
 
-export default function () {
+const Yox = require('yox')
+
+module.exports = function () {
   return {
     name: 'yox-template',
-    load(id) {
-      // 只处理 hbs 文件
+    transform(code, id) {
       if (id.split('.').pop() === 'hbs') {
-        let content = fs.readFileSync(id).toString()
-        return `export default ${Yox.compile(content, true)}`
+        return {
+          code: `export default ${Yox.compile(code, true)}`
+        }
       }
     }
   }
