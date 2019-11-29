@@ -1,0 +1,26 @@
+{
+  "name": "rollup-plugin-yox-template",
+  "version": "0.0.1",
+  "description": "Load yox template file as a module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoxjs/rollup-plugin-yox-template.git"
+  },
+  "keywords": [
+    "rollup",
+    "yox"
+  ],
+  "author": "musicode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoxjs/rollup-plugin-yox-template/issues"
+  },
+  "homepage": "https://github.com/yoxjs/rollup-plugin-yox-template#readme",
+  "dependencies": {
+    "yox": "^1.0.0-alpha.118"
+  }
+}
