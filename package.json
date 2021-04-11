@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-yox-template",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Load yox template file as a module",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/yoxjs/rollup-plugin-yox-template#readme",
   "dependencies": {
-    "yox": "^1.0.0-alpha.213"
+    "yox": "^1.0.0-alpha.214"
   }
 }
